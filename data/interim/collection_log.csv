@@ -1,0 +1,104 @@
+appid,name,ach_status,n_achievements_returned,news_status,n_news_returned,news_possibly_truncated
+211820,Starbound,ok,51,ok,115,False
+224760,FEZ,ok,12,ok,8,False
+227300,Euro Truck Simulator 2,ok,114,ok,200,True
+232430,Gone Home,ok,10,ok,30,False
+242920,Banished,ok,36,ok,18,False
+246900,Viscera Cleanup Detail,ok,85,ok,172,False
+262410,World of Guns: Gun Disassembly,ok,42,ok,200,True
+270880,American Truck Simulator,ok,140,ok,200,True
+278360,A Story About My Uncle,ok,15,ok,12,False
+286160,Tabletop Simulator,ok,26,ok,200,True
+287980,Mini Metro,ok,73,ok,156,False
+313340,Mountain,ok,31,ok,10,False
+343780,Cat Goes Fishing,ok,86,ok,21,False
+346010,Besiege,ok,54,ok,143,False
+346900,AdVenture Capitalist,ok,31,ok,66,False
+361280,Turmoil,ok,39,ok,198,False
+384190,ABZU,ok,12,ok,36,False
+406150,Refunct,ok,10,ok,29,False
+428690,Youtubers Life,ok,63,ok,194,False
+463980,Solitairica,ok,27,ok,45,False
+464230,Colours of Magic: Aqua Teeter,ok,17,ok,11,False
+465100,LUNA The Shadow Dust,ok,24,ok,33,False
+466630,The Pedestrian,ok,10,ok,21,False
+467960,Home Behind,ok,35,ok,63,False
+469790,Linelight,ok,25,ok,17,False
+473950,Manifold Garden,ok,25,ok,41,False
+474050,Candy Blast,ok,18,ok,6,False
+474750,Reigns,ok,13,ok,34,False
+476240,KNIGHTS,ok,20,ok,28,False
+481870,Mini Thief,ok,20,ok,92,False
+485730,Shift,ok,16,ok,18,False
+486310,Meadow - A Shelter Game,ok,137,ok,176,False
+486860,MMORPG Tycoon 2,ok,17,ok,183,False
+487000,Quest Hunter,ok,74,ok,63,False
+487630,Lantern,ok,20,ok,0,False
+490100,Quell Zen,ok,18,ok,0,False
+490250,Locomancer,ok,15,ok,92,False
+491330,12 Labours of Hercules V: Kids of Hellas (Platinum Edition),ok,23,ok,26,False
+495560,Farm Manager 2018,ok,32,ok,37,False
+498660,Mind Spheres,ok,11,ok,6,False
+704850,Thief Simulator,ok,33,ok,92,False
+732430,Superflight,ok,24,ok,13,False
+736190,Chinese Parents,ok,23,ok,89,False
+743450,Monster Prom,ok,52,ok,36,False
+751780,Forager,ok,103,ok,61,False
+774801,Crab Champions,ok,117,ok,42,False
+813230,ANIMAL WELL,ok,20,ok,34,False
+914800,Coffee Talk,ok,24,ok,73,False
+972660,Spiritfarer: Farewell Edition,ok,39,ok,36,False
+977880,Eastward,ok,30,ok,40,False
+990630,The Last Campfire,ok,22,ok,8,False
+1012880,60 Seconds! Reatomized,ok,60,ok,71,False
+1044720,Farthest Frontier,ok,74,ok,68,False
+1046030,ISLANDERS,ok,38,ok,24,False
+1055540,A Short Hike,ok,12,ok,11,False
+1062520,Dinkum,ok,25,ok,133,False
+1084600,My Time at Sandrock,ok,60,ok,200,True
+1115690,"Yes, Your Grace",ok,35,ok,35,False
+1129190,Our Life: Beginnings & Always,ok,22,ok,40,False
+1129580,Medieval Dynasty,ok,44,ok,200,True
+1135690,Unpacking,ok,25,ok,54,False
+1139980,Travellers Rest,ok,55,ok,200,True
+1149620,Gas Station Simulator,ok,101,ok,200,True
+1158160,Coral Island,ok,51,ok,140,False
+1169040,Necesse,ok,51,ok,177,False
+1177980,"Little Kitty, Big City",ok,39,ok,56,False
+1189490,觅长生,ok,68,ok,200,True
+1190970,House Flipper 2,ok,60,ok,119,False
+1206560,WorldBox - God Simulator,ok,54,ok,60,False
+1210320,Potion Craft: Alchemist Simulator,ok,29,ok,91,False
+1211020,Wobbly Life,ok,68,ok,69,False
+1239690,Retrowave,ok,44,ok,14,False
+1290000,PowerWash Simulator,ok,100,ok,163,False
+1318690,shapez,ok,45,ok,80,False
+1353230,Bomb Rush Cyberfunk,ok,23,ok,12,False
+1390350,Webbed,ok,19,ok,13,False
+1424330,Wobbledogs,ok,73,ok,87,False
+1432860,Sun Haven,ok,190,ok,96,False
+1454400,Cookie Clicker,ok,637,ok,8,False
+1455840,Dorfromantik,ok,85,ok,200,True
+1468260,Leaf Blower Revolution - Idle Game,ok,24,ok,95,False
+1483870,Draw & Guess,ok,29,ok,151,False
+1574580,Strange Horticulture,ok,18,ok,51,False
+1584090,Touhou Mystia's Izakaya,ok,141,ok,70,False
+1621690,Core Keeper,ok,59,ok,200,True
+1629520,A Little to the Left,ok,65,ok,58,False
+1657630,Slime Rancher 2,ok,27,ok,47,False
+1669980,Volcano Princess,ok,235,ok,48,False
+1931770,Chants of Sennaar,ok,25,ok,15,False
+2027330,GoreBox,ok,31,ok,35,False
+2113850,Spirit City: Lofi Sessions,ok,34,ok,89,False
+2248760,Car For Sale Simulator,ok,57,ok,131,False
+2291760,Papa's Freezeria Deluxe,ok,90,ok,6,False
+2322560,Love Is All Around,ok,65,ok,70,False
+2379780,Balatro,ok,31,ok,45,False
+2415010,A Date with Death,ok,17,ok,24,False
+2527500,MiSide,ok,26,ok,28,False
+2666510,Rusty's Retirement,ok,71,ok,34,False
+2670630,Supermarket Simulator,ok,15,ok,88,False
+2709570,Supermarket Together,ok,55,ok,71,False
+3107330,Nodebuster,ok,13,ok,3,False
+3117820,Sultan's Game,ok,15,ok,73,False
+3146520,WEBFISHING,ok,16,ok,8,False
