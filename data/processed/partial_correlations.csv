@@ -1,0 +1,5 @@
+metric,n,rho_raw,p_raw,rho_controlled,p_controlled
+ach_retention_ratio,98,-0.345,0.0,-0.302,0.003
+ach_tail_ratio,98,-0.502,0.0,-0.421,0.0
+ach_share_under_1pct,98,0.416,0.0,0.285,0.005
+review_pct_positive,103,-0.046,0.642,-0.216,0.03

@@ -1,0 +1,13 @@
+﻿Post Type;Outcome;Games;Correlation (Raw);p-value (Raw);Correlation (Controlled);p-value (Controlled);Significant (Controlled, p < 0.05)
+Update;Retention Ratio;98;-0,297;0,003;-0,24;0,018;Yes
+Update;Late-Game Reach;98;-0,438;0,0;-0,35;0,0;Yes
+Update;Rare Achievements;98;0,399;0,0;0,286;0,005;Yes
+Event;Retention Ratio;98;-0,276;0,006;-0,194;0,058;No
+Event;Late-Game Reach;98;-0,293;0,003;-0,173;0,092;No
+Event;Rare Achievements;98;0,291;0,004;0,179;0,081;No
+Sale;Retention Ratio;98;-0,205;0,043;-0,179;0,081;No
+Sale;Late-Game Reach;98;-0,303;0,002;-0,251;0,014;Yes
+Sale;Rare Achievements;98;0,276;0,006;0,199;0,052;No
+Other;Retention Ratio;98;-0,313;0,002;-0,283;0,005;Yes
+Other;Late-Game Reach;98;-0,365;0,0;-0,273;0,007;Yes
+Other;Rare Achievements;98;0,274;0,006;0,131;0,205;No

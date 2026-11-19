@@ -1,0 +1,4 @@
+activity_segment,n,ach_retention_ratio,ach_tail_ratio,ach_share_under_1pct,review_pct_positive,age_days,owners_low,posts_12m
+1_dormant,30,0.35,0.129,0.0,0.932,3212.0,200000.0,0.0
+2_occasional,51,0.263,0.077,0.0,0.941,2283.0,500000.0,2.0
+3_active,22,0.131,0.023,0.045,0.929,1396.5,1000000.0,27.0

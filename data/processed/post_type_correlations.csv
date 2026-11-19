@@ -1,0 +1,13 @@
+post_type,outcome,n,rho_raw,p_raw,rho_controlled,p_controlled
+n_update,ach_retention_ratio,98,-0.297,0.003,-0.24,0.018
+n_update,ach_tail_ratio,98,-0.438,0.0,-0.35,0.0
+n_update,ach_share_under_1pct,98,0.399,0.0,0.286,0.005
+n_event,ach_retention_ratio,98,-0.276,0.006,-0.194,0.058
+n_event,ach_tail_ratio,98,-0.293,0.003,-0.173,0.092
+n_event,ach_share_under_1pct,98,0.291,0.004,0.179,0.081
+n_sale,ach_retention_ratio,98,-0.205,0.043,-0.179,0.081
+n_sale,ach_tail_ratio,98,-0.303,0.002,-0.251,0.014
+n_sale,ach_share_under_1pct,98,0.276,0.006,0.199,0.052
+n_other,ach_retention_ratio,98,-0.313,0.002,-0.283,0.005
+n_other,ach_tail_ratio,98,-0.365,0.0,-0.273,0.007
+n_other,ach_share_under_1pct,98,0.274,0.006,0.131,0.205

@@ -1,0 +1,10 @@
+age_band,activity_segment,n,retention,share_under_1pct,review_pct
+1,1_dormant,6,0.319,0.0,0.973
+1,2_occasional,18,0.249,0.0,0.958
+1,3_active,11,0.144,0.018,0.93
+2,1_dormant,9,0.346,0.0,0.932
+2,2_occasional,18,0.312,0.0,0.948
+2,3_active,7,0.207,0.033,0.882
+3,1_dormant,15,0.431,0.0,0.901
+3,2_occasional,15,0.183,0.0,0.889
+3,3_active,4,0.079,0.073,0.965
