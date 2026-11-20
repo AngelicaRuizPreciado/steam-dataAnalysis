@@ -6,9 +6,8 @@ This project benchmarks 103 established cosy indie games on Steam (98 with usabl
 
 **Key finding:** studios that post often are not associated with better progression. Games with active studios (12+ posts per year) have a median achievement retention ratio of 0.13, versus 0.26 for occasional and 0.35 for dormant studios, a gap of about 63% between active and dormant. The gap holds across game-age bands and after controlling for game age and owner count. Review scores do not differ between groups. The data, however, does not prove that posting reduces engagement: new content adds rarely unlocked achievements, and struggling games may attract more updates. Posting frequency should therefore not be used as a health signal on its own.
 
-
 ## Business Problem
-A small indie publisher has limited budget for post-launch support. Which games are worth backing, and is a studio's communication activity a useful signal?
+A small indie publisher has limited budget for post-launch support. Which games are worth backing, and is a studio's communication activity a useful signal?  
 In order to answer this, we ask two questions for each game:
 
 * Progression: do players reach the late content, or do they drop off early?
@@ -19,6 +18,8 @@ In order to answer this, we ask two questions for each game:
 
 **Decision supported:** Which games to prioritize, fix, or deprioritize. More precisely, how to benchmark a game against comparable peers and where to spend support and marketing effort.
 
+![BusinessProblemGraphExample](images/business_problem.png)
+
 ## Methodology
 
 
@@ -27,7 +28,7 @@ All candidate games come from the SteamSpy tag lists (Cozy, Wholesome, Relaxing,
 
 **Data collection (Python):** Achievement unlock percentages (GetGlobalAchievementPercentagesForApp) and news posts (GetNewsForApp) were retrieved from the Steam Web API; release dates, genres and achievement counts from the store Appdetails endpoint. The other endpoint, GetPlayerSummaries, was considered but not used as it returns player-level profiles, and the question is at game level.
 
-**Data Cleaning (Python):** Filtered out games not labeled as Indie, with fewer than 10 achievements, or released less than 12 months ago.
+**Data Cleaning (Python):** Removed duplicate news posts, converted UNIX timestamps, games with no "news" were counted as zero posts, and games with low-signal achievements were excluded from progression metrics.
 
 **Database (SQLite + SQL):** CSVs are loaded into SQLite. Metrics are built as SQL views with window functions (medians, percentiles, gaps between posts) and cross-checked against a pandas version (all differences 0).
 
@@ -51,7 +52,7 @@ Python (requests, pandas, scipy), SQL (SQLite, window functions, views), API dat
 
 ### Recommendations
 1. Do not treat posting frequency as a measure of game health. Active studios coincide with a lower share of players reaching late content, but this phenomenon can't be clearly attributed to posting.
-2. Benchmark each game against peers in the same activity segment. A retention ratio of 0.2 is typical for an active title but weak for a dormant one.
+2. Benchmark each game against peers in the same activity segment. AA retention ratio of 0.2 is above the median for an active title (0.13) but well below the median for a dormant one (0.35).
 3. Hypothesis to test next: dormant games with high retention and high review scores may be the cheapest candidates for low-effort support such as seasonal sales and bundles.
 
 ### Limitations
@@ -59,6 +60,7 @@ Python (requests, pandas, scipy), SQL (SQLite, window functions, views), API dat
 - Achievement percentages are a snapshot with no dates, so updates adding achievements cannot be separated from real player behaviour.
 - Post classification uses simple keyword rules; about one third of posts remain "other".
 - Observational data from 98 games: associations, not causes. A robustness check on the 21 games matched by two or more tags kept the same ordering of segments (retention 0.35 / 0.34 / 0.24) but was too small to be significant (p = 0.38).
+- 'Cosy' is defined loosely: a game qualifies with any one of five tags, and only 21 of the 98 analysed games matched two or more.
 
 ## Dashboard
 
@@ -66,7 +68,7 @@ Python (requests, pandas, scipy), SQL (SQLite, window functions, views), API dat
 
 ![Post types](images/2-PostTypes.png)
 
-![Post types](images/3-Scorecard.png)
+![Game scorecard](images/3-Scorecard.png)
  
 The Power BI file is in `dashboard/`. It reads the CSVs in `data/powerbi/`, which use semicolons as separators and decimal commas (e.g. `0,841`) to match an Italian-locale system.
 
@@ -80,13 +82,14 @@ BuildDB.py                  loads SQLite and builds metrics with sql/metrics.sql
 Analysis.py                 segments, age bands, controlled correlations
 PostTypes.py                keyword classification of news posts
 Export.py                   dashboard-ready CSVs
+Figures.py                  with no arguments, prints a table of games, with arguments 
+                            draws the figure in the Business Problem section 
 sql/                        metrics.sql, segments.sql, scorecard.sql
 data/powerbi/               CSVs used by the dashboard
 data/processed/             analysis outputs
 data/interim/sample.csv     the 103-game sample
 dashboard/                  Power BI file
-images/                     dashboard screenshots
-DebuggingNotebook.ipynb     Jupyter notebook with exploratory analysis and debugging
+images/                     dashboard screenshots and business problem example graph
 ```
  
 ## How to reproduce
